@@ -7,6 +7,8 @@ public class HelloWorld {
     public static void main(String[] args) {
 
 
+        // Paczka z lambdą - zawiera też przedstawienie klasy anonimowej
+
         // Paczka z enumem i pracą na nim
         // Paczka z dodawaniem i usuwaniem plików jako niezależna paczka
 
