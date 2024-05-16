@@ -1,12 +1,9 @@
-import Animal.Polimorfizm.Zoo;
-import Pojzd.Interfejs.Bike;
-import Wyjatek.Wyjatek;
-
 public class HelloWorld {
 
     public static void main(String[] args) {
 
-
+        // pczka list zawiera zagadnienia związane z listą
+        // Paczka stream - zawiera naukę strumieni
         // Paczka z lambdą - zawiera też przedstawienie klasy anonimowej
 
         // Paczka z enumem i pracą na nim
