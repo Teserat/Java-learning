@@ -1,8 +1,8 @@
-public class HelloWorld {
+public class Main {
 
     public static void main(String[] args) {
 
-        // pczka list zawiera zagadnienia związane z listą
+        // Pczka list zawiera zagadnienia związane z listą
         // Paczka stream - zawiera naukę strumieni
         // Paczka z lambdą - zawiera też przedstawienie klasy anonimowej
 
@@ -19,7 +19,7 @@ public class HelloWorld {
         /*// Interfejs - rower posiada interfejs narzucony przez Vechicle i BicycleEquipment
         Bike romet = new Bike();
         romet.jazda(0);
-        */
+
 
         /* //Konstruktor użytkownika imie/login/hasło
 
