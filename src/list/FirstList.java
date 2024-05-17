@@ -1,5 +1,7 @@
 package list;
 import Paczka.Pomocnicza.ExtraMethods;
+import Paczka.Pomocnicza.FirstNameGenerator;
+import Paczka.Pomocnicza.NameGenerator;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package list;
+package Paczka.Pomocnicza;
 
 import java.util.ArrayList;
 import java.util.Arrays;
