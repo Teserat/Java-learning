@@ -2,6 +2,8 @@ public class Main {
 
     public static void main(String[] args) {
 
+        // Dodanie Paczek Sets i Map oraz izolacja użytecznych metod w Paczce pomocniczej
+
         // Pczka list zawiera zagadnienia związane z listą
         // Paczka stream - zawiera naukę strumieni
         // Paczka z lambdą - zawiera też przedstawienie klasy anonimowej
