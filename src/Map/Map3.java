@@ -27,7 +27,7 @@ public class Map3 {
                 wystapienia.put(tab[i], 1);
             }
         }
-        for (Integer klucz : wystapienia.keySet()){
+        for (Integer klucz : wystapienia.keySet()) {
             System.out.println("Liczba " + klucz + " wystepuje " + wystapienia.get(klucz));
         }
     }
