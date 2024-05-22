@@ -3,7 +3,7 @@ public class Main {
     public static void main(String[] args) {
 
 
-        // paczka loops - dodanie metody na wykrycie czy wyraz to palindrom
+        // paczka loops - dodanie metody na wykrycie czy wyraz to palindrom, dodatkowo Fibonaccci i FirstNumbers
         // Dodanie Paczek Sets i Map oraz izolacja użytecznych metod w Paczce pomocniczej
 
         // Pczka list zawiera zagadnienia związane z listą
