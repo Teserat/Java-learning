@@ -19,6 +19,4 @@ public class Tablica {
                 System.out.println(tablica[i]);
             }
     }
-
-
 }

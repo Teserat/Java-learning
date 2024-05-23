@@ -1,3 +1,6 @@
+import Paczka.Pomocnicza.ExtraMethods;
+import Pojzd.Interfejs.Bike;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -10,25 +13,28 @@ public class Main {
         // Paczka stream - zawiera naukę strumieni
         // Paczka z lambdą - zawiera też przedstawienie klasy anonimowej
 
-        // Paczka z enumem i pracą na nim
-        // Paczka z dodawaniem i usuwaniem plików jako niezależna paczka
+        // Paczka z enumem
+        // Paczka z dodawaniem i usuwaniem plików
 
         //Wyjątki - do odpalenia w paczce wyjątki, wyjątek polegający na braku ścieżki do pliku + tworzenie plików tekstowych
-
 
         //Polimorfizm - przypisanie do Interfejsu nadżędnego, podżędnych metod - czyli wielopostaciowość
         //Zoo.Zoo(null);
 
+        // TODO: 23.05.2024 opisać lepiej poniższe nauki
+        // rozważyć lepsze poznanie TODO
 
-        /*// Interfejs - rower posiada interfejs narzucony przez Vechicle i BicycleEquipment
+        ExtraMethods.linia("Praca z interfejsami w paczce Pojazd.Interfejs");
+        // Interfejs - rower posiada interfejs narzucony przez Vechicle i BicycleEquipment
         Bike romet = new Bike();
         romet.jazda(0);
+        romet.frontBicycleLight();
 
 
-        /* //Konstruktor użytkownika imie/login/hasło
+        //Konstruktor użytkownika imie/login/hasło
 
         NaukaKonstruktor user1 = new NaukaKonstruktor();
-        NaukaKonstruktor user2 = new NaukaKonstruktor("Sylwia", "dupa", "dupa");
+        NaukaKonstruktor user2 = new NaukaKonstruktor("Sylwia", "stokrotka", "stokrotka123");
         NaukaKonstruktor user3 = new NaukaKonstruktor("Michal", "sad", "wielki");
 
         for ( int i = 0; i<3; i++)
@@ -42,7 +48,7 @@ public class Main {
 
         }
 
-        */
+
 
 
 
