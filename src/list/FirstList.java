@@ -1,8 +1,8 @@
 package list;
 
-import Paczka.Pomocnicza.ExtraMethods;
-import Paczka.Pomocnicza.FirstNameGenerator;
-import Paczka.Pomocnicza.NameGenerator;
+import extra_methods.ExtraMethods;
+import extra_methods.FirstNameGenerator;
+import extra_methods.NameGenerator;
 import java.util.ArrayList;
 import java.util.List;
 

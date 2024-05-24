@@ -1,5 +1,6 @@
-import Paczka.Pomocnicza.ExtraMethods;
-import Pojzd.Interfejs.Bike;
+import animal_polymorphism.Zoo;
+import extra_methods.ExtraMethods;
+import vehicle_interface.Bike;
 
 public class Main {
 
@@ -19,7 +20,7 @@ public class Main {
         //Wyjątki - do odpalenia w paczce wyjątki, wyjątek polegający na braku ścieżki do pliku + tworzenie plików tekstowych
 
         //Polimorfizm - przypisanie do Interfejsu nadżędnego, podżędnych metod - czyli wielopostaciowość
-        //Zoo.Zoo(null);
+        Zoo.Zoo(null);
 
         // TODO: 23.05.2024 opisać lepiej poniższe nauki
         // rozważyć lepsze poznanie TODO
