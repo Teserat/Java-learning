@@ -6,6 +6,8 @@ public class Main {
 
     public static void main(String[] args) {
 
+        // movies and series objkect - projekt z obiektami recenzji, dziedziczeniem, dodaniem na liste i blokadą deduplikacji
+        //------------------------------------------------
 
         // paczka loops - dodanie metody na wykrycie czy wyraz to palindrom, dodatkowo Fibonaccci i FirstNumbers
         // Dodanie Paczek Sets i Map oraz izolacja użytecznych metod w Paczce pomocniczej

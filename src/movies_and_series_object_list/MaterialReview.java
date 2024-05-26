@@ -1,6 +1,6 @@
 package movies_and_series_object_list;
 
-public class VideoMaterial {
+public class MaterialReview {
     int numer;
     String tytul;
     String platforma;
@@ -8,7 +8,7 @@ public class VideoMaterial {
     String opis;
     double ocena;
 
-    public VideoMaterial(int numer, String tytul, String platforma, int rok, String opis, double ocena) {
+    public MaterialReview(int numer, String tytul, String platforma, int rok, String opis, double ocena) {
         this.numer = numer;
         this.tytul = tytul;
         this.platforma = platforma;
@@ -17,7 +17,7 @@ public class VideoMaterial {
         this.ocena = ocena;
     }
 
-    public VideoMaterial() {
+    public MaterialReview() {
     }
 
     //Setters
@@ -71,12 +71,10 @@ public class VideoMaterial {
     }
 
 
-
-
-
     @Override
     public String toString() {
         return "Numer: " + numer + ", Tytul: " + tytul + ", Platforma: " + platforma + ", Rok: " + rok + ", Opis: " + opis + ", Ocena: " + ocena;
     }
-
+    //Nadpisując metodę toString(), definiujesz, jak obiekt powinien być reprezentowany jako ciąg znaków (tekst). W tym przypadku, metoda toString() zwraca łańcuch znaków zawierający wartości pól obiektu klasy VideoMaterial.
+    // dzięki temu sout zrobi dla obiektu np : Numer: 99, Tytul: testowa nazwa filmu, Platforma: brak, Rok: 1992, Opis: Fajny film, Ocena: 3.7
 }
