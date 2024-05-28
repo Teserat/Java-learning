@@ -130,7 +130,8 @@ public class CSVGenerator {
     // Metoda do zapisu do pliku CSV
     public static void writeCSV(List<String[]> data, String fileName) {
         try (BufferedWriter csvWriter = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(fileName), StandardCharsets.UTF_8))) {
-            // Zapis nagłówków
+            // Zapis nagłówków z BOM (Byte Order Mark) dla poprawnego odczytu UTF-8 w niektórych edytorach
+            csvWriter.write('\uFEFF');
             csvWriter.write("Name,Description\n");
 
             // Zapis danych
