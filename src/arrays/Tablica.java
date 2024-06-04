@@ -1,3 +1,5 @@
+package arrays;
+
 public class Tablica {
 
     static String[] tablica = new String[10];

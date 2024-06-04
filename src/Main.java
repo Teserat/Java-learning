@@ -51,25 +51,8 @@ public class Main {
 
         }
 
-        /* //Tablice
-        String[]strings = new String[3];
-        strings[0] = "jeden";
-        strings[1] = "dwa";
-        strings[2] = "trzy";
-        System.out.println("Tablica : lista 1--------------");
-        System.out.println("dlugosc listy = " + strings.length);
-        for (int i = 0; i <= 2; i++)
-        {
-            System.out.println(strings[i]);
-        }
+        // Paczka tablice
 
-        System.out.println("Tablica : lista 2--------------");
-        Tablica.odczytTablicy(); // odczyt tablicy
-        Tablica.tablica(); // inicjalizacja z metody
-        Tablica.odczytTablicy(); // ponowny odczyt tablicy
-        Tablica.zapisDoTablicy("nowa wartosc");
-        Tablica.odczytTablicy(); // ponowny odczyt tablicy
-        */
         //----------Klasa Warjacje w paczce the_basics
         //Warjacje.testMatematyczny1(); // skaner z zapytaniem o wynik 4 x 5 - zast. if skrócony
         //Warjacje.testMatematyczny2(); // skaner z zapytaniem o wynik 4 x 5 - zast. try catch z exception na inny znak niż liczba
