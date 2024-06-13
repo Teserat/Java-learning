@@ -1,4 +1,4 @@
-package animal_polymorphism;
+package interface_animal_polymorphism;
 
 public class Fish implements Animal {
     @Override

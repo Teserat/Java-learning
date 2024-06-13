@@ -1,4 +1,4 @@
-package animal_polymorphism;
+package interface_animal_polymorphism;
 
 public class Zoo {
     public static void Zoo(String[] args) {

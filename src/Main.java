@@ -1,4 +1,4 @@
-import animal_polymorphism.Zoo;
+import interface_animal_polymorphism.Zoo;
 import extra_methods.ExtraMethods;
 import vehicle_interface.Bike;
 
