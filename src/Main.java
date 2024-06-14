@@ -6,7 +6,8 @@ public class Main {
 
     public static void main(String[] args) {
 
-
+        // Update Package with 2 new switch cases
+        // Paczka z metodą prywatną w interfejsie interface_calculator_private_method
         // Paczka z generowaniem danych csv_generator
         // movies and series objkect - projekt z obiektami recenzji, dziedziczeniem, dodaniem na liste i blokadą deduplikacji
         //------------------------------------------------
