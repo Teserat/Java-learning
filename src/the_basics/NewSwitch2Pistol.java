@@ -8,7 +8,8 @@ public class NewSwitch2Pistol {
             case 0 -> "No shots fired.";
             case 1, 2, 3, 4, 5, 6 -> {
                 if (shots > bullets) {
-                    yield "Not enough bullets to fire " + shots + " in a row. Now you have " + bullets + " bullet/s, please reload.";
+                    bullets = 0;
+                    yield "Not enough bullets, you fired " + shots + " times. Now you have " + bullets + " bullets, please reload.";
                 } else {
                     bullets -= shots;
                     if (bullets == 0) {
